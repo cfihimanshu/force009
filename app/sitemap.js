@@ -1,0 +1,2 @@
+const siteUrl=process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000";
+export default function sitemap(){const now=new Date();return [{url:siteUrl,lastModified:now,changeFrequency:"weekly",priority:1},{url:`${siteUrl}/services`,lastModified:now,changeFrequency:"monthly",priority:.9},{url:`${siteUrl}/industries`,lastModified:now,changeFrequency:"monthly",priority:.8},{url:`${siteUrl}/about`,lastModified:now,changeFrequency:"monthly",priority:.7},{url:`${siteUrl}/contact`,lastModified:now,changeFrequency:"monthly",priority:.7}]}

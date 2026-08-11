@@ -1,0 +1,2 @@
+export const metadata={title:"Contact Security Operations",description:"Contact FORCE009 for SARFAESI physical possession support, post-possession asset guarding, corporate security and institutional field operations in India.",alternates:{canonical:"/contact"},openGraph:{title:"Contact FORCE009 Security Operations",description:"Discuss a secured-asset possession or security assignment with FORCE009.",url:"/contact",images:["/brand/pages/contact-command.png"]}};
+export default function ContactLayout({children}){return children}

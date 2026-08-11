@@ -1,0 +1,1 @@
+export default function manifest(){return {name:"FORCE009 Security & Facilitators Network LLP",short_name:"FORCE009",description:"SARFAESI physical possession support and secured asset protection for institutional clients.",start_url:"/",display:"standalone",background_color:"#ffffff",theme_color:"#d9901c",icons:[{src:"/brand/logo.png",sizes:"612x510",type:"image/png"}]}}
