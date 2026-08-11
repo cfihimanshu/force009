@@ -7,9 +7,9 @@
     "node": ">=22"
   },
   "scripts": {
-    "dev": "npx --yes -p node@22 vinext dev",
-    "build": "npx --yes -p node@22 vinext build && mkdir -p dist/.openai && cp .openai/hosting.json dist/.openai/hosting.json",
-    "start": "npx --yes -p node@22 vinext start"
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
